@@ -10,12 +10,12 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="1,244.360 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,859.561 ns"></ZoomEndTime>
-      <Cursor1Time time="1,560.160 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="183.901 ns"></ZoomEndTime>
+      <Cursor1Time time="65.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
       <ValueColumnWidth column_width="90"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="38" />
@@ -48,6 +48,15 @@
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <obj_property name="CustomSignalColor">#0000FF</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_pipeline/uut/reg_file_inst/display_x10" type="array">
+      <obj_property name="ElementShortName">display_x10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">display_x10[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_pipeline/uut/reg_file_inst/display_x6" type="array">
+      <obj_property name="ElementShortName">display_x6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">display_x6[31:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_riscv_pipeline/uut/pc" type="array">
       <obj_property name="ElementShortName">pc[31:0]</obj_property>
@@ -177,14 +186,5 @@
    <wvobject fp_name="/tb_riscv_pipeline/uut/reg_write_chip" type="logic">
       <obj_property name="ElementShortName">reg_write_chip</obj_property>
       <obj_property name="ObjectShortName">reg_write_chip</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_riscv_pipeline/uut/reg_file_inst/display_x6" type="array">
-      <obj_property name="ElementShortName">display_x6[31:0]</obj_property>
-      <obj_property name="ObjectShortName">display_x6[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_riscv_pipeline/uut/reg_file_inst/display_x10" type="array">
-      <obj_property name="ElementShortName">display_x10[31:0]</obj_property>
-      <obj_property name="ObjectShortName">display_x10[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>
